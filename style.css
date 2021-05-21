@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header start */
+#head {
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.wb-icon img {
+  width: 100px;
+}
+.mon-icon img {
+  width: 60px;
+}
+/* header end */
+/* main start */
+.title-content {
+  background-color: #feca57;
+  text-align: center;
+}
+#title {
+  font-size: 35px;
+  padding: 40px 20px;
+  text-transform: capitalize;
+}
+.wb-describtion {
+  text-align: center;
+  background-color: #212121;
+  color: white;
+  padding: 30px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.wb-describtion:hover {
+  box-shadow: black 4px 11px 11px 0px;
+}
+
+.wb-describtion h4 {
+  font-size: 40px;
+  padding-bottom: 25px;
+}
+.card-one {
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: #212121;
+  margin: 20px;
+  border-radius: 3px;
+  box-shadow: black 4px 11px 11px 0px;
+}
+.card-one:hover {
+  background-color: black;
+}
+.card-one h3 {
+  padding: 10px;
+}
+.card-one h1 {
+  width: 80px;
+  height: 80px;
+  background-color: #ef5350;
+  border-radius: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.card-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+/* motivatinal card section */
+.motivational-card {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.mCard-one {
+  width: 200px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  overflow: auto;
+}
+.mCard-one:hover {
+  background-color: rgb(29, 28, 28);
+  transition: 0.3s;
+}
+.mCard-one h1 {
+  color: #feca57;
+  padding-bottom: 5px;
+}
+/* main end */
+/* footer start */
+footer{
+   background-color: rgba(0, 0, 0, 0.87);
+}
+.social-acounts{
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.social-acounts a{
+   font-size: 50px;
+   padding: 20px;
+}
+/* footer end */
